@@ -66,6 +66,17 @@ Boom! You’re officially a printing wizard. 🧙‍♀️✨
 
 ---
 
+### 📚 Learning Resources
+
+A few gems that saved my sanity:
+
+- [GNU C Library: Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)  
+- [Microsoft Docs — va_start, va_arg, va_end, va_copy](https://learn.microsoft.com/fr-fr/cpp/c-runtime-library/reference/va-arg-va-copy-va-end-va-start?view=msvc-170)
+
+(For understanding variadic functions at a low level)
+
+---
+
 ### ☕ Powered by:
 
 - Ubuntu 22.04 — my trusty dev battleground
