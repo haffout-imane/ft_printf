@@ -77,15 +77,6 @@ A few gems that saved my sanity:
 
 ---
 
-### ☕ Powered by:
-
-- Ubuntu 22.04 — my trusty dev battleground
-- GCC 11.2 — the compiler that listens (most of the time)
-- Vim — because I like living dangerously
-- Coffee — without it, this project wouldn’t exist
-
----
-
 ### 💡 Tips & Tricks:
 - 🔄 Don’t forget to use va_end()  
 Always pair your va_start() with a va_end(). Skipping it? That’s how segfaults happen 👻
