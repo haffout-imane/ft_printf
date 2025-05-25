@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=F761C0&?&font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=welcome+to+ft_printf!;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=F4BADF&?&font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=welcome+to+ft_printf!;" alt="Typing SVG" />
 </h1>
 <img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2l3dXRpZGhydHcwcmtoNmhsNWU3c3N4YjMxMW8yeWIxdHh1MzR5MCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/RMvt4YIZRaS5JcihQQ/giphy.gif" width="134" />
 
-### 🎉 Project Overview:
+### 🧵 Project Overview:
 
 Welcome to `ft_printf`, “The Drama Queen” of your C projects.  
 Why? Because this baby demands **perfect** formatting, or it throws a tantrum. 🧐  
@@ -13,7 +13,7 @@ Your mission, should you choose to accept it: recreate the legendary `printf` fu
 
 ---
 
-### 🕵️‍♀️ What’s inside this wild ride?
+### 📦 What’s inside?
 
 `ft_printf` handles all the usual suspects:
 
@@ -85,3 +85,23 @@ A few gems that saved my sanity:
 - Coffee — without it, this project wouldn’t exist
 
 ---
+
+### 💡 Tips & Tricks:
+- 🔄 Don’t forget to use va_end()  
+Always pair your va_start() with a va_end(). Skipping it? That’s how segfaults happen 👻
+
+- 📦 Modularize your code  
+Split your logic into helpers like print_char, print_hex, etc. Your future self will thank you.
+
+- 🧪 Test edge cases  
+Print NULL, large numbers, weird formats. Break it before your peers do.
+
+```c
+ft_printf("NULL test: %s\n", NULL);
+ft_printf("Edge case: %p %x %d\n", NULL, -42, 2147483647);
+```
+- 📚 Reuse your libft  
+Already wrote ft_strlen, ft_itoa, ft_memset? Recycle that gold ♻️
+
+- 🕵️‍♀️ Compare outputs  
+Use the real printf() to debug. If it prints something different—you've got work to do.
